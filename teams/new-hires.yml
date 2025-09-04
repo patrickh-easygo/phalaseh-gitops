@@ -21,10 +21,14 @@ controls:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
-  custom_settings:
-    - path: ..lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+  macos_settings:
+   custom_settings:
+    - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+  macos_configuration_profiles:
+    - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+    - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
   macos_updates:
-    deadline: 2025-09-21
+    deadline: "2025-09-21"
     minimum_version: "16.0"
 team_settings:
   secrets:
