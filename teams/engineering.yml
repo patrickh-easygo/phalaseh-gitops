@@ -25,7 +25,7 @@ controls:
     - path: ../lib/macos/scripts/set-wallpaper.ps1
   macos_settings:
     custom_settings:
-      - path: ../lib/macos/settings/passcode-settings-ddm.json
+      - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
   ipados_updates: 
     deadline: "2025-09-30"
     minimum_version: "18.t5"
