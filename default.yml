@@ -16,18 +16,14 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
-org_info:
-  org_name: PHALASEH
-org_settings:
+  org_info:
+    org_name: PHALASEH
   webhook_settings:
-  activities_webhook:
-    enable_web_portal: true
-    destination_url: https://example.com
-
+    activities_webhook:
+      enable_web_portal: true
+      destination_url: https://example.com
   server_settings:
     server_url: $FLEET_URL
-  org_info:
-    org_name: Fleet
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
