@@ -20,7 +20,7 @@ org_settings:
     org_name: PHALASEH
   webhook_settings:
     activities_webhook:
-      enable_web_portal: true
+      enable_activities_webhook: true
       destination_url: https://example.com
   server_settings:
     server_url: $FLEET_URL
